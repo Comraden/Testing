@@ -15,13 +15,14 @@ if(isset($_SESSION['q']))header("Location:start.php");
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css"/>
 </head>
 
 <?php include_once('header.php');?>
     
 <body>
 
-    <main role="main" class="container">
+    <main role="main" class="container  wow fadeIn">
         <form action="start.php" method="post">
           <div class="form-group">
             <label for="exampleInputEmail1">ФИО</label>

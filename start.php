@@ -23,6 +23,7 @@ nextQuestion();
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css"/>
 </head>
 
 <?php include_once('header.php');?>
@@ -40,7 +41,7 @@ nextQuestion();
     </nav>
     <form class="mainForm" method="post" action="">
     <?php
-        echo "<div class='card'>";
+        echo "<div class='card wow fadeIn'>";
             echo "<div class='card-body'>";
                 echo "<h5 class='questionText'>".$questions[$_SESSION["q"]]['question']."</h5>";
                     
@@ -67,7 +68,6 @@ nextQuestion();
                 echo "</label></div>";
                 echo "<input type='submit' class='btn btn-primary submit-button' value='Ответить'/>";
         echo "</div></div>";
-        debug();
     ?>
     </form>
 

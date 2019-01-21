@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css"/>
 </head>
 
 <?php include_once('header.php');?>
@@ -20,7 +21,7 @@
 
     <main role="main" class="container">
 
-    <div class="jumbotron">
+    <div class="jumbotron wow slideInLeft">
       <h1 class="display-4">Добро пожаловать !</h1>
       <p class="lead">Мы - студенты Машиностроительного колледжа г. Иркутска. Мы учимся на специальности Компьютерные системы. И хотели бы узнать, каким уровнем знании обладают люди, в наш век цифровых технологии.</p>
       <hr class="my-4">
